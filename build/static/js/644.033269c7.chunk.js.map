@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/644.033269c7.chunk.js","mappings":"+IAUA,UARgB,WACd,OACE,yBAAK,WAIT,C","sources":["pages/Setting/index.js"],"sourcesContent":["import React from 'react'\n\nconst Setting = () => {\n  return (\n    <div>\n      Setting\n    </div>\n  )\n}\n\nexport default Setting\n"],"names":[],"sourceRoot":""}

@@ -1,0 +1,138 @@
+@import '../../../assets/scss/main.scss';
+@import '../../../assets/scss/variables.scss';
+
+.wrapper {
+    .full-content {
+        .main-content {
+            .tab-inner {
+                display: flex;
+                align-items: center;
+
+                .nav-pills {
+
+                    .nav-link.active,
+                    .nav-pills .show>.nav-link {
+                        background: #6DB0E1;
+                        border-radius: 5px;
+                        color: #fff;
+                    }
+
+                    .nav-item {
+                        margin-right: 15px;
+
+                        a {
+                            font-weight: 400;
+                            font-size: 25px;
+                            line-height: 23px;
+                            color: #A2A2A2;
+                            font-family: $fontfamilyAssistant;
+                            font-family: $fontfamilyAssistant;
+                        }
+                    }
+                }
+
+                form.search-box {
+                    max-width: 310px !important;
+                    width: 100%;
+                    position: relative;
+
+                    input.form-control {
+                        background: #FAFAFA;
+                        border-radius: 5px;
+                        height: 49px;
+                        padding-left: 50px;
+                        font-size: 22px;
+                        line-height: 20px;
+                        border: none;
+
+                        &:focus {
+                            box-shadow: none;
+                        }
+                    }
+
+                    button.btn.btn-outline-success {
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        border: none;
+
+                        &:hover,
+                        &:focus {
+                            background-color: transparent;
+                            box-shadow: none;
+                        }
+                    }
+                }
+
+                button.export-btn.btn.btn-primary {
+                    background: #FAFAFA;
+                    border-radius: 5px;
+                    font-size: 22px;
+                    line-height: 91.65%;
+                    color: #716F6F;
+                    height: 49px;
+                    border: none;
+                    padding: 10px 33px;
+                }
+            }
+
+            .tab-inner {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 15px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #C6C5C3;
+
+                .tab-search {
+                    display: flex;
+                    align-items: center;
+
+                    .nav.nav-pills {
+                        flex-wrap: nowrap;
+                    }
+                }
+
+                button.new-btn.btn.btn-primary {
+                    background: #6DB0E1;
+                    border-radius: 5px;
+                    border-color: #6DB0E1;
+                    height: 46px;
+                    width: 80px;
+                    font-size: 25px;
+                    line-height: 91.65%;
+                    color: #FFFFFF;
+                }
+            }
+
+            .tab-content {
+                .table.porfile-list {
+                    border-collapse: separate;
+                    border-spacing: 0 3px;
+
+                    thead {
+                        th {
+                            vertical-align: bottom;
+                            border-bottom: none;
+                            background: #6DB0E1;
+                            color: #fff;
+                            font-weight: 400;
+                            font-size: 22px;
+                            line-height: 91.65%;
+                        }
+                    }
+
+                    tr {
+                        background: #F5F5F5;
+
+                        td {
+                            border: none;
+                            height: 48px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

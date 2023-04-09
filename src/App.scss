@@ -1,0 +1,22 @@
+@import "~bootstrap/scss/bootstrap";
+
+.gfg {
+  background-color: green;
+  padding: 5px;
+  padding-left: 15px;
+  
+  h1 {
+    color: white;
+    font-family: sans-serif;
+  }
+
+}
+.loader{
+ 
+    position: absolute;
+    z-index: 999999;
+    left: 50%;
+    top: 50%;
+
+  }
+ 
