@@ -14,12 +14,19 @@ const Statistic = lazy(() => import('../pages/Statistics'));
 const Categories = lazy(() => import('../pages/Categories'));
 const Posts = lazy(() => import('../pages/Posts'));
 const Contacts=lazy(()=>import('../pages/Contacts'));
+const AddUser=lazy(()=>import('../pages/crud/AddUser'));
+const Home1=lazy(()=>import('../pages/crud/index'));
 
 const authRoutes = [
   { path: '/signup', element: <Login /> },
   { path: '/', element: <Login /> },
   { path: '/forgotPassword', element: <ForgotPassword /> },
-];
+  { path:'/add',element:<AddUser/>},
+  { path:'/home',element:<Home1/>},
+  { path:'/update/:id',element:<AddUser/>},
+  { path:'/view/:id',element:<Home1/>}
+  
+]
 
 
 
